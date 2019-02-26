@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: nice-phy
+  datasource:
+    url: jdbc:mysql://117.50.54.206:3306/nice_phy
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+jwt:
+  config:
+    key: admin
+    ttl: 300000
